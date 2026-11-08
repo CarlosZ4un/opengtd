@@ -13,7 +13,7 @@ public class PerfilService {
 
     public Perfil obterPerfil() {
         return perfilRepository.findAll().stream().findFirst().orElseGet(() -> {
-            Perfil padrao = new Perfil(null, "Yuri", 15, 12, 500, 300);
+            Perfil padrao = new Perfil(null, "Gustavo", 15, 12, 500, 300);
             return perfilRepository.save(padrao);
         });
     }

@@ -22,7 +22,7 @@ public class OpengtdApplication {
     public CommandLineRunner carregarDadosIniciais(TarefaRepository tarefaRepository, PerfilRepository perfilRepository) {
         return args -> {
             if (perfilRepository.count() == 0) {
-                perfilRepository.save(new Perfil(null, "Yuri", 15, 12, 500, 300));
+                perfilRepository.save(new Perfil(null, "Gustavo", 15, 12, 500, 300));
             }
 
             if (tarefaRepository.count() == 0) {
