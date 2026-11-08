@@ -7,9 +7,9 @@ services:
       - "8080:8080"
 
   # App (pasta frontend/), servido como site estático em http://localhost:3000
-  front:
+  ui:
     image: nginx:1.27-alpine
-    container_name: opengtd-front
+    container_name: opengtd-ui
     ports:
       - "3000:80"
     volumes:
