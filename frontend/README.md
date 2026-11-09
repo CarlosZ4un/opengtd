@@ -19,7 +19,7 @@ Com tudo anotado, a cabeça fica livre para fazer em vez de lembrar.
 
 ## Como rodar
 
-O app conversa com a API do OpenGTD em `https://opengtd-api.onrender.com` (o endereço fica na `const API`, no topo do
+O app conversa com a API do OpenGTD em `https://opengtd-api-xpcd.onrender.com` (o endereço fica na `const API`, no topo do
 `script.js`). Com a API no ar, abra o `index.html` no navegador.
 
 O app também é um PWA (`manifest.json` e `sw.js`): servido por `localhost` ou por HTTPS, ele pode ser instalado e abre

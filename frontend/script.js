@@ -1,5 +1,5 @@
 // Endereço da API
-const API = 'https://opengtd-api.onrender.com';
+const API = 'https://opengtd-api-xpcd.onrender.com';
 
 // Texto de cada status para mostrar na tela
 const NOMES_STATUS = new Map([

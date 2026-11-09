@@ -1,5 +1,5 @@
 // Trocar o nome quando o código mudar, para o navegador baixar a versão nova
-const CACHE = 'opengtd-v2';
+const CACHE = 'opengtd-v3';
 
 const ARQUIVOS = ['./', 'index.html', 'style.css', 'script.js', 'manifest.json', 'icone-192.png', 'icone-512.png'];
 
