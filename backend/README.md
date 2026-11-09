@@ -86,7 +86,7 @@ In your terminal, inside the `opengtd` folder:
 - **`GET /perfil`** — Returns user profile and gamification stats:
   ```json
   {
-    "nome": "Yuri",
+    "nome": "Gustavo",
     "nivel": 15,
     "streak": 12,
     "xpAtual": 500,

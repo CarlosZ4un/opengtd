@@ -1,0 +1,18 @@
+services:
+  # API Spring Boot (pasta backend/), em http://localhost:8080
+  api:
+    build: ./backend
+    container_name: opengtd-api
+    ports:
+      - "8080:8080"
+
+  # App (pasta frontend/), servido como site estático em http://localhost:3000
+  ui:
+    image: nginx:1.27-alpine
+    container_name: opengtd-ui
+    ports:
+      - "3000:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+    depends_on:
+      - api
