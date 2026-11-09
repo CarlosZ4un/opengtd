@@ -1,5 +1,5 @@
 // Endereço da API
-const API = 'http://localhost:8080';
+const API = 'https://opengtd-api.onrender.com';
 
 // Texto de cada status para mostrar na tela
 const NOMES_STATUS = new Map([
